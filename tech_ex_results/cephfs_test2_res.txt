@@ -1,0 +1,36 @@
+                                 version : 3.1
+                           hosts in test : None
+                        launch by daemon : False
+                   top test directory(s) : ['/mnt/cephfs']
+                               operation : create
+                            files/thread : 100
+                                 threads : 2
+           record size (KB, 0 = maximum) : 0
+                          file size (KB) : 10
+                  file size distribution : fixed
+                           files per dir : 100
+                            dirs per dir : 10
+              threads share directories? : N
+                         filename prefix : 
+                         filename suffix : 
+             hash file number into dir.? : N
+                     fsync after modify? : N
+          pause between files (microsec) : 0
+             minimum directories per sec : 50
+                    finish all requests? : Y
+                              stonewall? : Y
+                 measure response times? : N
+                            verify read? : Y
+                                verbose? : False
+                          log to stderr? : False
+host = localhost.localdomain,thr = 00,elapsed = 1.743653,files = 100,records = 100,status = ok
+host = localhost.localdomain,thr = 01,elapsed = 1.181222,files = 100,records = 100,status = ok
+total threads = 2
+total files = 200
+total IOPS = 142
+total data =     0.002 GiB
+100.00% of requested files processed, warning threshold is  70.00
+elapsed time =     1.744
+files/sec = 142.008918
+IOPS = 142.008918
+MiB/sec = 1.386806
